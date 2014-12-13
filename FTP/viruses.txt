@@ -249,8 +249,8 @@ Bundibugyo virus	565995	PRJNA51245	51245	ssRNA viruses	Filoviridae	18.94	42	vert
 Tai Forest ebolavirus	186541	PRJNA51257	51257	ssRNA viruses	Filoviridae	18.935	42.3	vertebrates, human	1	7	9	2008/11/21	2014/11/12	Complete
 Melon chlorotic mosaic virus-associated alphasatellite	870465	PRJNA51413	51413	Satellites	unclassified	1.334	42.5	plants	1	2	2	2010/08/09	2010/12/21	Complete
 Melon chlorotic mosaic virus	180399	PRJNA51415	51415	ssDNA viruses	Geminiviridae	5.235	42.9546	plants	2	7	7	2010/08/09	2010/08/10	Complete
-Polyomavirus HPyV7	746831	PRJNA51557	51557	dsDNA viruses, no RNA stage	Polyomaviridae	4.952	42.9	vertebrates	1	5	5	2010/05/07	2010/08/16	Complete
-Polyomavirus HPyV6	746830	PRJNA51559	51559	dsDNA viruses, no RNA stage	Polyomaviridae	4.926	42.7	vertebrates	1	5	5	2010/05/07	2010/08/16	Complete
+Human polyomavirus 7	746831	PRJNA51557	51557	dsDNA viruses, no RNA stage	Polyomaviridae	4.952	42.9	vertebrates	1	5	5	2010/05/07	2010/08/16	Complete
+Human polyomavirus 6	746830	PRJNA51559	51559	dsDNA viruses, no RNA stage	Polyomaviridae	4.926	42.7	vertebrates	1	5	5	2010/05/07	2010/08/16	Complete
 Passerivirus A1	871699	PRJNA51587	51587	ssRNA viruses	Picornaviridae	8.035	57.9	vertebrates	1	1	1	2010/08/15	2010/09/21	Complete
 Oscivirus A1	871700	PRJNA51589	51589	ssRNA viruses	Picornaviridae	7.641	46.9	vertebrates	1	1	1	2010/08/15	2010/09/21	Complete
 Oscivirus A2	871701	PRJNA51591	51591	ssRNA viruses	Picornaviridae	7.678	46.6	vertebrates	1	1	1	2010/08/15	2010/09/21	Complete
@@ -832,7 +832,6 @@ Avian adeno-associated virus ATCC VR-865	219704	PRJNA14456	14456	ssDNA viruses	P
 Equid herpesvirus 2	12657	PRJNA14457	14457	dsDNA viruses, no RNA stage	Herpesviridae	184.427	57.5	vertebrates	1	79	79	1995/03/07	2013/03/13	Complete
 Murid herpesvirus 4	33708	PRJNA14458	14458	dsDNA viruses, no RNA stage	Herpesviridae	119.451	47.2	vertebrates	1	80	80	1997/08/12	2010/04/23	Complete
 Mycobacterium phage L5	31757	PRJNA14459	14459	dsDNA viruses, no RNA stage	Siphoviridae	52.297	62.3	bacteria	1	93	90	1993/02/23	2014/01/24	Complete
-Hamster polyomavirus	10626	PRJNA14461	14461	dsDNA viruses, no RNA stage	Polyomaviridae	5.366	41.6	vertebrates	1	6	6	1988/10/12	2010/03/26	Complete
 Avian adeno-associated virus strain DA-1	281492	PRJNA14463	14463	ssDNA viruses	Parvoviridae	4.682	54.1	vertebrates	1	2	2	2004/06/26	2010/06/28	Complete
 Orf virus	10258	PRJNA14464	14464	dsDNA viruses, no RNA stage	Poxviridae	139.962	63.4	vertebrates	1	130	130	2003/12/23	2010/12/09	Complete
 Equid herpesvirus 1	10326	PRJNA14465	14465	dsDNA viruses, no RNA stage	Herpesviridae	150.224	56.7	vertebrates	1	80	80	1993/08/02	2010/04/23	Complete
@@ -1639,7 +1638,6 @@ Chicken anemia virus	12618	PRJNA15484	15484	ssDNA viruses	Circoviridae	2.319	56.
 Human papillomavirus type 41	10589	PRJNA15485	15485	dsDNA viruses, no RNA stage	Papillomaviridae	7.614	46.9	vertebrates	1	11	11	1991/06/14	2011/02/05	Complete
 Human papillomavirus type 63	28311	PRJNA15486	15486	dsDNA viruses, no RNA stage	Papillomaviridae	7.348	40.4	vertebrates	1	7	7	1993/06/15	2011/02/05	Complete
 Human papillomavirus type 96	247269	PRJNA15488	15488	dsDNA viruses, no RNA stage	Papillomaviridae	7.438	40.3	vertebrates, human	1	7	7	2003/10/03	2010/03/26	Complete
-Murine polyomavirus	10634	PRJNA15489	15489	dsDNA viruses, no RNA stage	Polyomaviridae	5.297	47.3	vertebrates	1	6	6	1993/08/02	2010/03/26	Complete
 Cymbidium mosaic virus	12178	PRJNA15490	15490	ssRNA viruses	Alphaflexiviridae	6.227	48.9	plants	1	5	5	1997/05/19	2008/12/08	Complete
 Mupapillomavirus 1	334203	PRJNA15491	15491	dsDNA viruses, no RNA stage	Papillomaviridae	7.815	40.3	vertebrates	1	7	7	1982/11/03	2010/03/26	Complete
 Human papillomavirus type 4	10617	PRJNA15492	15492	dsDNA viruses, no RNA stage	Papillomaviridae	7.353	38.5	vertebrates	1	7	7	1993/06/15	2011/02/05	Complete
@@ -2083,7 +2081,6 @@ Bear Canyon virus	192848	PRJNA28325	28325	ssRNA viruses	Arenaviridae	10.441	39.0
 Cupixi virus	208899	PRJNA28327	28327	ssRNA viruses	Arenaviridae	10.438	42.4088	vertebrates, human	2	4	4	2002/10/02	2008/01/11	Complete
 Orgyia leucostigma NPV	490711	PRJNA28501	28501	dsDNA viruses, no RNA stage	Baculoviridae	156.179	39.9	invertebrates	1	135	135	2008/01/16	2008/04/22	Complete
 Vibrio phage kappa	493906	PRJNA28503	28503	dsDNA viruses, no RNA stage	Myoviridae	33.507	48.8	bacteria	1	45	45	2008/01/16	2009/04/17	Chromosome(s)
-Merkel cell polyomavirus	493803	PRJNA28509	28509	dsDNA viruses, no RNA stage	Polyomaviridae	5.387	40.5	vertebrates, human	1	5	5	2008/01/17	2011/07/21	Complete
 Phaius virus X	457382	PRJNA28617	28617	ssRNA viruses	Alphaflexiviridae	5.816	50.9	plants	1	5	5	2008/01/26	2009/01/27	Complete
 Cardiospermum yellow leaf curl betasatellite	497865	PRJNA28647	28647	Satellites	unclassified	1.338	36.3	plants	1	1	1	2008/01/27	2011/02/05	Complete
 Ligustrum necrotic ringspot virus	478550	PRJNA28681	28681	ssRNA viruses	Betaflexiviridae	8.412	46.5	plants	1	6	6	2008/02/01	2009/04/08	Complete
@@ -4463,3 +4460,14 @@ Garlic virus B	12432	PRJNA268864	268864	ssRNA viruses	Alphaflexiviridae	8.336	47
 Cangyuan orthoreovirus	1388882	PRJNA269146	269146	dsRNA viruses	Reoviridae	23.325	48.5385	vertebrates	10	10	10	2014/11/26	2014/12/04	Complete
 Bovine polyomavirus 3	1561705	PRJNA269173	269173	dsDNA viruses, no RNA stage	Polyomaviridae	4.861	46.1	vertebrates	1	5	5	2014/10/21	2014/12/04	Complete
 Bovine polyomavirus 2	1578134	PRJNA269306	269306	dsDNA viruses, no RNA stage	Polyomaviridae	5.085	40.3	vertebrates	1	6	6	2014/10/01	2014/12/05	Complete
+Vibrio phage phi-A318	1151014	PRJNA269621	269621	dsDNA viruses, no RNA stage	Podoviridae	42.544	43.5	bacteria	1	46	46	2014/06/29	2014/12/09	Complete
+Enterobacteria phage f1	10863	PRJNA269627	269627	ssDNA viruses	Inoviridae	6.407	40.9	bacteria	1	10	10	1989/06/15	2014/12/09	Complete
+Enterobacteria phage fd	10864	PRJNA269628	269628	ssDNA viruses	Inoviridae	6.408	40.9	bacteria	1	10	10	1989/06/15	2014/12/09	Complete
+Leopards Hill virus	1381104	PRJNA269629	269629	ssRNA viruses	Bunyaviridae	18.368	42.2153	vertebrates, invertebrates, human	3	3	3	2014/11/27	2014/12/09	Complete
+Asparagus virus 1	443746	PRJNA269630	269630	ssRNA viruses	Potyviridae	9.741	40.7	plants	1	1	1	2014/12/03	2014/12/09	Complete
+Raccoon dog amdovirus	1513315	PRJNA269633	269633	ssDNA viruses	Parvoviridae	4.928	35.7	vertebrates	1	5	5	2014/12/02	2014/12/09	Complete
+Rhesus adenovirus 53	1574629	PRJNA269647	269647	dsDNA viruses, no RNA stage	Adenoviridae	34.475	54.6	vertebrates	1	15	15	2014/12/01	2014/12/09	Complete
+Rhesus adenovirus 52	1574628	PRJNA269648	269648	dsDNA viruses, no RNA stage	Adenoviridae	34.391	54.9	vertebrates	1	15	15	2014/12/01	2014/12/09	Complete
+Rhesus adenovirus 51	1574627	PRJNA269649	269649	dsDNA viruses, no RNA stage	Adenoviridae	35.079	55	vertebrates	1	15	15	2014/12/01	2014/12/09	Complete
+Shigella phage pSs-1	1551641	PRJNA269769	269769	dsDNA viruses, no RNA stage	Myoviridae	164.999	35.5	bacteria	1	266	266	2014/10/11	2014/12/09	Complete
+Escherichia phage Av-05	1527519	PRJNA269770	269770	dsDNA viruses, no RNA stage	Myoviridae	120.938	40	bacteria	1	209	209	2014/08/31	2014/12/09	Complete

@@ -28,27 +28,32 @@ public static ArrayList<HashMap<String,String>> conversion(File source, String k
 		if(scanner!=null) { 
 	        
 	        //Grab the fields names
-	        String fields[] = scanner.nextLine().split("\t");
-	        renameFields(fields);
-	        System.out.println(fields.length);
+			if(scanner.hasNextLine())
+	        {
+				String fields[] = scanner.nextLine().split("\t");
+		        renameFields(fields);
     		
-    		while (scanner.hasNextLine())
-            {
-    			HashMap<String,String> map = new HashMap<String, String>();
-        		
-    			StringTokenizer st = new StringTokenizer(scanner.nextLine(), "\t");
-    			
-    			int counter = 0;
-    			while(st.hasMoreTokens()) {
-    				String value = st.nextToken();
-    				map.put(fields[counter], value);
-    				counter++;
-    			}
-    			map.put("kingdom", kingdom);
-
-    			hashList.add(map);
-            }
-	        
+	    		while (scanner.hasNextLine())
+	            {
+	    			HashMap<String,String> map = new HashMap<String, String>();
+	        		
+	    			StringTokenizer st = new StringTokenizer(scanner.nextLine(), "\t");
+	    			
+	    			int counter = 0;
+	    			while(st.hasMoreTokens()) {
+	    				String value = st.nextToken();
+	    				map.put(fields[counter], value);
+	    				counter++;
+	    			}
+	    			map.put("kingdom", kingdom);
+	
+	    			hashList.add(map);
+	            }
+	        }
+			else
+			{
+				System.err.println("We're out.");
+			}
 		}
 		
         //Do not forget to close the scanner 

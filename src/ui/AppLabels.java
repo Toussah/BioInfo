@@ -25,9 +25,9 @@ public abstract class AppLabels {
 	
 	public static final String APP_INIT_COMPONENTS = "Loading Components...";
 
-	public static final String APP_BUTTON_REFRESH = "Refresh";
+	public static final String APP_BUTTON_REFRESH = "Update genomes";
 	
-	public static final String APP_BUTTON_GETJSON = "Get config files";
+	public static final String APP_BUTTON_GETJSON = "Retrieve genomes";
 
 	public static final String APP_BUTTON_ANALYSIS = "Analysis";
 

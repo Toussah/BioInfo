@@ -141,10 +141,6 @@ public class FetchURLs
         }
         genomeJson = new JSONObject();
         genomeJson.put("genomes", genomes);
-        
-        PrintWriter pw = new PrintWriter("test2.json");
-        pw.print(genomeJson.toString(4));
-        pw.close();
 	}
 
 	
@@ -540,7 +536,7 @@ public class FetchURLs
 						else
 						{
 							String assemblyID = genome.optString("assembly_id");
-							if(assemblyID != null && assemblyID != "" && assemblyID.startsWith("-"))
+							if(assemblyID != null && !assemblyID.equals("") && assemblyID.startsWith("-"))
 							{
 								Map<String, List<String>> urlMap = getURLs(assemblyID);
 								genome.put("chromosomes", urlMap.get("chromosomes"));
@@ -903,7 +899,7 @@ public class FetchURLs
 			JSONObject gen = getGenome(id);
 			String assemblyID = gen.optString("assembly_id");
 			JSONObject jo = new JSONObject();
-			if(assemblyID != null && assemblyID != "-" && assemblyID != "")
+			if(assemblyID != null && !assemblyID.equals("-") && !assemblyID.equals(""))
 			{
 				Map<String, List<String>> map = getURLs(assemblyID);
 				List<String> listChr = map.get("chromosomes");
@@ -941,7 +937,7 @@ public class FetchURLs
 			JSONObject gen = getGenome(id);
 			String assemblyID = gen.getString("assembly_id");
 			JSONObject jo = new JSONObject();
-			if(assemblyID != null && assemblyID != "" && assemblyID != "-")
+			if(assemblyID != null && !assemblyID.equals("") && !assemblyID.equals("-"))
 			{
 				Map<String, List<String>> map = getURLs(assemblyID);
 				List<String> listChr = map.get("chromosomes");

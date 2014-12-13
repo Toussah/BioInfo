@@ -37,50 +37,23 @@ public class App {
 	}
 	
 	public static void reload_metadata(TreePath[] pselectedPaths){
-		//final TreePath[] selectedPaths = pselectedPaths;
 		Runnable fun = new Runnable(){
 			public void run(){
 				w.set_progressBar_value(0);
 				w.start_progressBar();
 				w.clear_log();
 				int ids[] = new int[0];
-				//boolean all = false;
 				JSONArray js = Interpreter.open_json_file();
 				JSONArray result = new JSONArray();
 				ArrayList<JSONArray> genomes_list = new ArrayList<JSONArray>();
 				w.add_to_log("Updating selected genomes");
-//				for(int i=0; i < selectedPaths.length; i++){
-//		        	TreePath tp = selectedPaths[i];
-//		        	GenomeTreeNode tn = (GenomeTreeNode) tp.getLastPathComponent();
-//		        	switch(tn.type){
-//		        		case GenomeTreeNode.ALL_TYPE:
-//		        			all = true;
-//		        			w.add_to_log("Start fetching list of genomes...");
-//		    				js = Interpreter.start_fetch_listing();
-//		    				w.append_to_log(AppLabels.APP_DONE);
-//		        			break;
-//		        		case GenomeTreeNode.KINGDOM_TYPE:
-//		        			w.add_to_log("Start retrieving ids of kingdom " + tn.name + "...");
-//		        			break;
-//		        		case GenomeTreeNode.GROUP_TYPE:
-//		        			w.add_to_log("Start retrieving ids of group " + tn.name + "...");
-//		        			break;
-//		        		case GenomeTreeNode.SUBGROUP_TYPE:
-//		        			w.add_to_log("Start retrieving ids of subgroup " + tn.name + "...");
-//		        			break;
-//		        		case GenomeTreeNode.GENOME_TYPE:
-//		        			w.add_to_log("Start retrieving id of genome " + tn.name + "...");
-//		        			break;
-//		        	}
-		        	
-		        	w.add_to_log("Start retrieving ids...");
-    				ids = Interpreter.refresh();
-    				w.append_to_log(AppLabels.APP_DONE);
-				
-					w.add_to_log("Start retrieving metadata...");
-					genomes_list.add(Interpreter.fetch_nuccore(ids));   
-					w.append_to_log(AppLabels.APP_DONE);
-//				}
+	        	w.add_to_log("Start retrieving ids...");
+				ids = Interpreter.refresh();
+				w.append_to_log(AppLabels.APP_DONE);
+			
+				w.add_to_log("Start retrieving metadata...");
+				genomes_list.add(Interpreter.fetch_nuccore(ids));   
+				w.append_to_log(AppLabels.APP_DONE);
 				
 			    for (JSONArray arr : genomes_list) {
 			    	System.out.println(arr.toString(4));
@@ -93,10 +66,6 @@ public class App {
 			    w.add_to_log(AppLabels.APP_COMPLETE);
 				w.set_progressBar_value(100);
 				w.stop_progressBar();
-			    
-//				if(all){
-//					w.update_tree(Linker.JTreeFromJsonArray(Interpreter.open_json_file()));
-//				}
 			}
 		};
 		reload_thread = new Thread(fun);

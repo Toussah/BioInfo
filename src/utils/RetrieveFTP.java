@@ -41,7 +41,6 @@ public class RetrieveFTP
 		{
 			try
 			{
-				System.out.println(failedAttempt);
 				success = true;
 				failedAttempt++;
 				client.download(prokaryoteFileName, p);
@@ -66,7 +65,6 @@ public class RetrieveFTP
 		{
 			try
 			{
-				System.out.println(failedAttempt);
 				success = true;
 				failedAttempt++;
 				client.download(eukaryoteFileName, p);
@@ -91,7 +89,6 @@ public class RetrieveFTP
 		{
 			try
 			{
-				System.out.println(failedAttempt);
 				success = true;
 				failedAttempt++;
 				client.download(virusFileName, p);

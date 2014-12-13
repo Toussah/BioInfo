@@ -249,7 +249,7 @@ Sorghum bicolor	4558	PRJNA74553	74553	Plants	Land Plants	0.018494	44.4	GCA_00023
 Sorghum bicolor	4558	PRJNA74553	74553	Plants	Land Plants	0.021299	52.4	GCA_000236745.2	-	-	-	AHAP01	35	35	35	2011/12/02	2014/08/11	Contig	BGI	SAMN02981390
 Sorghum bicolor	4558	PRJNA74553	74553	Plants	Land Plants	0.015475	46.7	GCA_000236765.2	-	-	-	AHAO01	16	16	16	2011/12/02	2014/08/11	Contig	BGI	SAMN02981389
 Ornithorhynchus anatinus	9258	PRJNA12885	12885	Animals	Mammals	1995.61	45.6584	GCF_000002275.2	19	1	-	AAPN01	200283	23777	26109	2006/04/10	2014/04/30	Chromosome	Washington University (WashU)	SAMN02953646
-Gallus gallus	9031	PRJNA13342	13342	Animals	Birds	1046.93	41.9347	GCA_000002315.2	34	1	-	AADN03	16847	21158	32182	2004/02/29	2011/02/24	Chromosome	International Chicken Genome Consortium	SAMN02981218
+Gallus gallus	9031	PRJNA13342	13342	Animals	Birds	1046.93	41.9347	GCA_000002315.2	34	1	-	AADN03	16847	21158	32182	2004/02/29	2013/06/19	Chromosome	International Chicken Genome Consortium	SAMN02981218
 Meleagris gallopavo	9103	PRJNA42129	42129	Animals	Birds	1061.82	41.5905	GCA_000146605.2	32	1	-	ADDD01	24484	13180	12504	2010/09/07	2014/04/25	Chromosome	Turkey Genome Consortium	SAMN02981253
 Falco peregrinus	8954	PRJNA159791	159791	Animals	Birds	1171.97	41.8	GCA_000337955.1	-	1	-	AKMT01	7021	14965	16092	2013/02/05	2014/08/11	Scaffold	BGI	SAMN02981425
 Equus caballus	9796	PRJNA233529	233529	Animals	Mammals	2474.93	41.6532	GCA_000002305.1	32	1	-	AAWR02	9688	25390	32352	2007/01/24	2014/04/25	Chromosome	Seoul National University	SAMN02953672
@@ -865,6 +865,7 @@ Encephalitozoon romaleae SJ-2008	1178016	PRJNA160949	160949	Fungi	Other Fungi	2.
 Penstemon davidsonii	160366	PRJNA162455	162455	Plants	Land Plants	2.37523	35.3	GCA_000280985.1	-	-	-	AKKI01	-	-	-	2012/07/23	2014/08/11	Contig	Brigham Young University	SAMN02981422
 Penstemon dissectus	160369	PRJNA162457	162457	Plants	Land Plants	2.62809	34.6	GCA_000280965.1	-	-	-	AKKH01	-	-	-	2012/07/23	2014/08/11	Contig	Brigham Young University	SAMN02981421
 Penstemon fruticosus	160371	PRJNA163701	163701	Plants	Land Plants	2.31904	35.2	GCA_000281025.1	-	-	-	AKKJ01	-	-	-	2012/07/23	2014/08/11	Contig	Brigham Young University	SAMN02981423
+Caenorhabditis sp. 11 KK-2011	1094322	PRJNA53597	53597	Animals	Roundworms	79.3214	37.7	GCA_000186765.1	-	-	-	AEKS01	665	-	-	2011/01/19	2014/08/06	Scaffold	The Genome Center,  Washington University School of Medicine, St Louis, MO	SAMN02953784
 Caenorhabditis briggsae AF16	473542	PRJNA10731	10731	Animals	Roundworms	108.479	37.6868	GCA_000004555.1	6	-	-	CAAC02	12	19471	19404	2002/08/22	2012/10/10	Chromosome	The C.briggsae Sequencing Consortium	-
 Caenorhabditis elegans	6239	PRJNA13758	13758	Animals	Roundworms	100.286	35.4317	GCA_000002985.3	6	1	-	-	7	44867	26047	2001/12/03	2013/03/13	Chromosome	C. elegans Sequencing Consortium	-
 Prunus mume	102107	PRJNA171605	171605	Plants	Land Plants	234.03	38.327	GCA_000346735.1	8	1	-	AOHF01	8626	26663	28506	2013/02/28	2014/06/03	Chromosome	BGI	SAMN02981503
@@ -1099,7 +1100,7 @@ Anopheles darlingi	43151	PRJNA46227	46227	Animals	Insects	136.936	48.3	GCA_00021
 Homo sapiens	9606	PRJNA31257	31257	Animals	Mammals	3209.29	41.4377	GCA_000001405.15	24	1	-	-	735	46004	73840	2002/08/02	2014/02/03	Chromosome	Genome Reference Consortium	-
 Fragaria x ananassa	3747	PRJDB1476	231450	Plants	Land Plants	173.23	38.4	GCA_000511695.1	-	-	-	BATS01	211588	-	-	2013/11/27	2013/11/27	Scaffold	Kazusa DNA Research Institute	-
 Fragaria x ananassa	3747	PRJDB1477	231451	Plants	Land Plants	697.762	38.9	GCA_000511835.1	-	-	-	BATT01	625966	-	-	2013/11/27	2013/11/27	Scaffold	Kazusa DNA Research Institute	-
-Beta vulgaris subsp. vulgaris	3555	PRJNA41497	41497	Plants	Land Plants	566.199	36.9989	GCA_000511025.1	9	-	-	AYZS01	40428	-	-	2013/12/18	2013/12/19	Chromosome	Beta vulgaris resource	SAMN02182557
+Beta vulgaris subsp. vulgaris	3555	PRJNA268352	268352	Plants	Land Plants	566.567	37.9116	GCA_000511025.1	9	1	-	AYZS01	40429	171	140	2013/12/18	2013/12/19	Chromosome	NCBI	SAMN02182557
 Beta vulgaris subsp. vulgaris	3555	PRJNA41497	41497	Plants	Land Plants	568.609	37.7195	GCA_000510975.1	9	-	-	AYZY01	43635	-	-	2013/12/17	2013/12/19	Chromosome	Beta vulgaris resource	SAMN02182557
 Capsicum annuum	4072	PRJNA223222	223222	Plants	Land Plants	3063.64	35	GCA_000512255.1	-	-	-	AYRZ01	37989	-	-	2013/12/30	2014/08/11	Scaffold	Seoul National University	SAMN02981571
 Reticulomyxa filosa	46433	PRJNA29155	29155	Protists	Other Protists	101.867	35	GCA_000512085.1	-	-	-	ASPP01	-	39965	39963	2013/12/30	2014/08/06	Contig	Leibniz Institute for Age Reseaerch Fritz Lipmann Institute	SAMN02953851
@@ -1719,7 +1720,7 @@ Rhinopithecus roxellana	61622	PRJNA230020	230020	Animals	Mammals	2899.55	41	GCA_
 Penicillium expansum	27334	PRJNA255745	255745	Fungi	Ascomycetes	32.065	47.6	GCA_000769735.1	-	-	-	JQFY01	270	11023	11023	2014/10/28	2014/10/28	Contig	Center for Genomic Regulation (CRG)	SAMN02928572
 Penicillium expansum	27334	PRJNA255747	255747	Fungi	Ascomycetes	32.356	47.5	GCA_000769745.1	-	-	-	JQFZ01	382	11060	11060	2014/10/28	2014/10/28	Contig	Center for Genomic Regulation (CRG)	SAMN02928573
 Penicillium expansum	27334	PRJNA255744	255744	Fungi	Ascomycetes	31.087	48.2	GCA_000769755.1	-	-	-	JQFX01	1723	10663	10663	2014/10/28	2014/10/28	Contig	Center for Genomic Regulation (CRG)	SAMN02928571
-Saccharomyces bayanus MCYC 623	226127	PRJNA1441	1441	Fungi	Ascomycetes	11.4775	40.2	GCA_000166995.1	-	-	-	AACA01	1098	-	-	2003/03/28	2014/08/06	Contig	Broad Institute	SAMN02953586
+Saccharomyces uvarum MCYC 623	226127	PRJNA1441	1441	Fungi	Ascomycetes	11.4775	40.2	GCA_000166995.1	-	-	-	AACA01	1098	-	-	2003/03/28	2014/08/06	Contig	Broad Institute	SAMN02953586
 Saccharomyces sp. 'boulardii'	252598	PRJNA260553	260553	Fungi	Ascomycetes	11.4069	38.2081	GCA_000769245.1	16	-	-	JRHY01	106	-	-	2014/10/22	2014/10/30	Chromosome	UFMG - Universidade Federal de Minas Gerais	SAMN03024104
 Balearica regulorum gibbericeps	100784	PRJNA212879	212879	Animals	Birds	1127.62	41.2001	GCA_000709895.1	-	1	-	JJRR01	53491	15122	16163	2014/06/02	2014/09/05	Scaffold	BGI	SAMN02318095
 Chlamydotis macqueenii	187382	PRJNA212891	212891	Animals	Birds	1086.57	41.1	GCA_000695195.1	-	-	-	JMFJ01	59693	9561	8304	2014/05/12	2014/11/14	Scaffold	BGI	SAMN02324157
@@ -1793,6 +1794,17 @@ Periophthalmodon schlosseri	1365757	PRJNA232436	232436	Animals	Fishes	679.761	40
 Bactrocera dorsalis	27457	PRJNA208413	208413	Animals	Insects	414.969	39.5	GCA_000789215.1	-	-	-	JFBF01	-	-	-	2014/12/03	2014/12/03	Contig	USDA-ARS	SAMN02203716
 Primula veris	170927	PRJNA238546	238546	Plants	Land Plants	309.693	35.1	GCA_000788445.1	-	-	-	JTKG01	-	-	-	2014/12/03	2014/12/03	Contig	University of Zurich	SAMN02644982
 Pteropus vampyrus	132908	PRJNA20325	20325	Animals	Mammals	2198.28	39.8	GCA_000151845.2	-	-	-	ABRP02	36094	-	-	2008/09/12	2014/12/05	Scaffold	Baylor College of Medicine	SAMN02894360
-Ceratocystis moniliformis	1580861	PRJNA246136	246136	Fungi	Ascomycetes	25.4296	47.8	GCA_000712465.1	-	-	-	JMSH01	365	-	-	2014/06/26	2014/06/26	Contig	Forestry and Agricultural Biotechnology Institute	SAMN02743538
 Mus musculus	10090	PRJNA11777	11777	Animals	Mammals	2800.06	41.9425	GCA_000001635.5	21	1	-	-	279	46951	77313	2004/09/02	2013/12/27	Chromosome	Universidad de Zaragoza	-
 Vitis vinifera	29760	PRJNA34679	34679	Plants	Land Plants	486.197	35.0336	GCA_000003745.2	19	2	-	CAAP03	2061	25048	23877	2007/02/13	2009/11/25	Chromosome	Edmund Mach Foundation, IASMA Research Center,	-
+Saccharomyces cerevisiae UFMG A-905	1434269	PRJNA230840	230840	Fungi	Ascomycetes	11.4304	38.231	GCA_000733235.3	16	-	-	JACO02	210	-	-	2014/07/24	2014/11/21	Chromosome	UFMG	SAMN02570260
+Trichoderma virens FT-333	1331945	PRJNA268050	268050	Fungi	Ascomycetes	38.6301	49.4	GCA_000800515.1	-	-	-	JTGJ01	586	-	-	2014/12/09	2014/12/09	Contig	National Cheng Kung University	SAMN03202112
+Oryza longistaminata	4528	PRJNA169314	169314	Plants	Land Plants	326.443	41.6	GCA_000789195.1	-	-	-	AMDW01	60198	-	-	2014/12/03	2014/12/03	Scaffold	BGI	SAMN03247844
+Trichuris suis	68888	PRJNA179528	179528	Animals	Roundworms	63.8397	43.3	GCA_000797535.1	-	-	-	JDFW01	306	-	-	2014/12/05	2014/12/05	Scaffold	The Genome Institute	-
+Vipera berus berus	31156	PRJNA170536	170536	Animals	Reptiles	1532.39	40.2	GCA_000800605.1	-	-	-	JTGP01	28883	-	-	2014/12/09	2014/12/10	Scaffold	BCM-HGSC	SAMN02780930
+Saccharomyces sp. 'boulardii'	252598	PRJNA255142	255142	Fungi	Ascomycetes	11.6369	38.2321	GCA_000734875.3	16	-	-	JPJH02	48	-	-	2014/07/28	2014/11/21	Chromosome	UFMG - Universidade Federal de Minas Gerais	SAMN02910581
+Erysiphe necator	52586	PRJNA248900	248900	Fungi	Ascomycetes	50.6582	38.9	GCA_000798735.1	-	-	-	JNUS01	-	-	-	2014/12/08	2014/12/11	Contig	University of California, Davis	SAMN02803892
+Erysiphe necator	52586	PRJNA248902	248902	Fungi	Ascomycetes	49.9425	38.9	GCA_000798795.1	-	-	-	JOKO01	-	-	-	2014/12/08	2014/12/11	Contig	University of California, Davis	SAMN02803896
+Erysiphe necator	52586	PRJNA247407	247407	Fungi	Ascomycetes	52.5051	39	GCA_000798715.1	-	-	-	JNVN01	-	-	-	2014/12/08	2014/12/11	Contig	University of California, Davis	SAMN02803834
+Erysiphe necator	52586	PRJNA248903	248903	Fungi	Ascomycetes	49.4651	38.9	GCA_000798755.1	-	-	-	JNUT01	-	-	-	2014/12/08	2014/12/11	Contig	University of California, Davis	SAMN02803894
+Erysiphe necator	52586	PRJNA248904	248904	Fungi	Ascomycetes	49.794	38.9	GCA_000798775.1	-	-	-	JNUU01	-	-	-	2014/12/08	2014/12/11	Contig	University of California, Davis	SAMN02803901
+Exophiala xenobiotica	348802	PRJNA265165	265165	Fungi	Ascomycetes	32.2749	51.8	GCA_000798695.1	-	-	-	JTCI01	2050	-	-	2014/12/08	2014/12/08	Contig	University of Natural Resources and Life Sciences, Vienna	SAMN03145801
