@@ -49,11 +49,19 @@ public class Interpreter
 	public static String MassiveStats = "massive.json";
 	public static String FineStats = "fine.json";
 	
-	public static JSONArray start_fetch_listing(){
-		 String output = "BioInfo.json";
-	     fu = null;
-	     MainWindow w = MainWindow.getInstance();
-	     try {
+	public static int[] start_fetch_listing(){
+		String output = null;
+		if(App.fineStatistics)
+		{
+			output = FineStats;
+		}
+		else
+		{
+			output = MassiveStats;
+		}
+	    fu = null;
+	    MainWindow w = MainWindow.getInstance();
+	    try {
 			fu = new FetchURLs("http://www.ncbi.nlm.nih.gov", "ftp.ncbi.nlm.nih.gov");
 			w.set_progressBar_indeterminate();
 			fu.init("genomes/GENOME_REPORTS/");
@@ -69,7 +77,8 @@ public class Interpreter
 			e.printStackTrace();
 		}
 	     
-	    return fu.getOrganizedJson();
+	    int ids[] = Linker.genomesIdListFromJsonArray(fu.getOrganizedJson());
+	    return ids;
 	}
 	
 	public static JSONArray open_json_file() {
@@ -93,6 +102,22 @@ public class Interpreter
 			e.printStackTrace();
 		}
 		return r;
+	}
+	
+	public static void generate_files()
+	{
+		try {
+			fu = new FetchURLs("http://www.ncbi.nlm.nih.gov", "ftp.ncbi.nlm.nih.gov");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			fu.init("genomes/GENOME_REPORTS/");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	public static int[] refresh()

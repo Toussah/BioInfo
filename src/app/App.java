@@ -219,6 +219,39 @@ public class App {
 		analysis_thread.start();
 	}
 	
+	public static void generate_json()
+	{
+		w.set_progressBar_value(0);
+		w.start_progressBar();
+		w.clear_log();
+		int ids[] = new int[0];
+		
+		JSONArray js = Interpreter.open_json_file();
+		JSONArray result = new JSONArray();
+		ArrayList<JSONArray> genomes_list = new ArrayList<JSONArray>();
+		w.add_to_log("Retrieving genomes from the database...");
+		
+    	w.add_to_log("Start retrieving ids...");
+		ids = Interpreter.start_fetch_listing();
+		w.append_to_log(AppLabels.APP_DONE);
+	
+		w.add_to_log("Start retrieving metadata...");
+		genomes_list.add(Interpreter.fetch_nuccore(ids));   
+		w.append_to_log(AppLabels.APP_DONE);
+	
+	    for (JSONArray arr : genomes_list) {
+	    	System.out.println(arr.toString(4));
+	        for (int i = 0; i < arr.length(); i++) {
+	            result.put(arr.get(i));
+	        }
+	    }
+	    
+	    Linker.updateOrganizedJson(js, result);
+	    w.add_to_log(AppLabels.APP_COMPLETE);
+		w.set_progressBar_value(100);
+		w.stop_progressBar();
+	}
+	
 	public static void cancel(){
 
 	}

@@ -21,7 +21,7 @@ public class EntranceApp {
 	 * @throws Exception 
 	 */
 	public static void main(String[] args) throws Exception {
-		new App(<);
+		new App();
 //		FetchURLs fu = new FetchURLs("http://www.ncbi.nlm.nih.gov", "ftp.ncbi.nlm.nih.gov");
 //		fu.init("/genomes/GENOME_REPORTS/");
 ////		fu.setOrganizedJson("BioInfo.json");
