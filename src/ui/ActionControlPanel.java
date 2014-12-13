@@ -90,7 +90,7 @@ public class ActionControlPanel extends JPanel implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
  		Object source = e.getSource();
 		if(source== get_json){
-			App.generate_json();
+			//App.generate_json();
 		}
 		else if(source == fine_statistics){
 			App.fineStatistics = fine_statistics.isSelected();

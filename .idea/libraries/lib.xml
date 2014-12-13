@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/ftp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jxl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

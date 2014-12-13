@@ -5,12 +5,7 @@ import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
 
-import javax.swing.ImageIcon;
-import javax.swing.JPanel;
-import javax.swing.JScrollPane;
-import javax.swing.JSplitPane;
-import javax.swing.JTextArea;
-import javax.swing.JTree;
+import javax.swing.*;
 import javax.swing.tree.TreePath;
 
 import com.sun.org.apache.xpath.internal.SourceTree;
@@ -35,8 +30,8 @@ public class MainAppPanel extends JPanel {
 	 */
 	
 	public MainAppPanel() {
+
 		setLayout(new BorderLayout());
-		
 	}
 	
 	public void buildContent(JTree tree){

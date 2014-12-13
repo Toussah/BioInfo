@@ -6,8 +6,7 @@ import java.awt.EventQueue;
 import java.awt.Image;
 import java.awt.Toolkit;
 
-import javax.swing.JFrame;
-import javax.swing.JTree;
+import javax.swing.*;
 import javax.swing.tree.TreePath;
 
 import utils.Interpreter;
@@ -160,6 +159,7 @@ public class MainWindow implements Runnable{
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
+
 		this.frame = new JFrame();
 		this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Image icon = Toolkit.getDefaultToolkit().getImage(this.frame.getClass().getResource("/ui/icon.png"));    
