@@ -13,6 +13,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTree;
 import javax.swing.tree.TreePath;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
 import utils.CheckTreeManager;
 
 public class MainAppPanel extends JPanel {
@@ -71,7 +72,7 @@ public class MainAppPanel extends JPanel {
 		splitPane.setOneTouchExpandable(true);
 		this.add(splitPane, BorderLayout.CENTER);
 		textArea = bottomPanel.getTextArea();
-		
+
 		ImageIcon labelimg = new ImageIcon(InitAppPanel.class.getResource(AppPaths.APP_MAIN_BACKGROUND ));
 		background_img = labelimg.getImage();
 	}
