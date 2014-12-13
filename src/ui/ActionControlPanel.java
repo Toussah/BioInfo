@@ -18,6 +18,7 @@ public class ActionControlPanel extends JPanel implements ActionListener {
 	private static final long serialVersionUID = 7837368675776102944L;
 
 	private JButton refresh_button;
+	private JButton get_json;
 	private JButton start_analysis;
 	private JCheckBox fine_statistics;
 	public JLabel selected_items ;
@@ -54,11 +55,19 @@ public class ActionControlPanel extends JPanel implements ActionListener {
 		c.gridwidth = 4;
 		c.insets = new Insets(10,10,10,10);
 		this.add(selected_items, c);
+
+		get_json = new JButton(AppLabels.APP_BUTTON_GETJSON);
+		get_json.addActionListener(this);
+		c.gridx = 2;
+		c.gridy = 6;
+		c.gridwidth = 2;
+		c.insets = new Insets(10,10,10,10);
+		this.add(get_json, c);
 		
 		refresh_button = new JButton(AppLabels.APP_BUTTON_REFRESH);
 		refresh_button.addActionListener(this);
 		c.gridx = 2;
-		c.gridy = 6;
+		c.gridy = 8;
 		c.gridwidth = 2;
 		c.insets = new Insets(10,10,10,10);
 		this.add(refresh_button, c);
@@ -66,7 +75,7 @@ public class ActionControlPanel extends JPanel implements ActionListener {
 		start_analysis = new JButton(AppLabels.APP_BUTTON_ANALYSIS);
 		start_analysis.addActionListener(this);
 		c.gridx = 2;
-		c.gridy = 8;
+		c.gridy = 10;
 		c.gridwidth = 2;
 		c.insets = new Insets(10,10,10,10);
 		this.add(start_analysis, c);
@@ -80,7 +89,10 @@ public class ActionControlPanel extends JPanel implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
  		Object source = e.getSource();
-		if(source == fine_statistics){
+		if(source== get_json){
+			App.generate_json();
+		}
+		else if(source == fine_statistics){
 			App.fineStatistics = fine_statistics.isSelected();
 		}
 		else if(source == refresh_button){
